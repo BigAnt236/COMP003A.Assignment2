@@ -24,12 +24,14 @@ namespace COMP003A.Assignment2
             Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}.");
 
             string integer1;
+            integer1 = Console.ReadLine();
             string integer2;
+            integer2 = Console.ReadLine();
             Console.WriteLine($"{integer1} + {integer2} = {integer1 + integer2}");
-            Console.WriteLine($"{integer1} - {integer2} = {integer1 - integer2}");
-            Console.WriteLine($"{integer1} * {integer2} = {integer1 * integer2}");
-            Console.WriteLine($"{integer1} / {integer2} = {integer1 / integer2}");
-            Console.WriteLine($"{integer1} % {integer2} = {integer1 % integer2}");
+            Console.WriteLine($"{integer1} - {integer2} = {integer1 + integer2}");
+            Console.WriteLine($"{integer1} * {integer2} = {integer1 + integer2}");
+            Console.WriteLine($"{integer1} / {integer2} = {integer1 + integer2}");
+            Console.WriteLine($"{integer1} % {integer2} = {integer1 + integer2}");
 
             double radius = Convert.ToDouble(Console.ReadLine());
             double area = Math.PI * Math.Pow(radius, 2);
