@@ -23,8 +23,17 @@ namespace COMP003A.Assignment2
             int yearBorn = 2024 - Convert.ToInt32(inputeAge);
             Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}.");
 
-            
+            string integer1;
+            string integer2;
             Console.WriteLine($"{integer1} + {integer2} = {integer1 + integer2}");
+            Console.WriteLine($"{integer1} - {integer2} = {integer1 - integer2}");
+            Console.WriteLine($"{integer1} * {integer2} = {integer1 * integer2}");
+            Console.WriteLine($"{integer1} / {integer2} = {integer1 / integer2}");
+            Console.WriteLine($"{integer1} % {integer2} = {integer1 % integer2}");
+
+            double radius = Convert.ToDouble(Console.ReadLine());
+            double area = Math.PI * Math.Pow(radius, 2);
+            double circumference = 2 * Math.PI * radius;
         }
     }
 }
